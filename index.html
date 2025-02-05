@@ -10,10 +10,10 @@
 
     <div class="container">
         <div class="lists">
-            <div class="leftside-list">
+            <div class="leftside-list dragbox">
                 <h3>Sortable List</h3>
                 <div class="box">
-                    <div class="list-box">
+                    <div class="list-box" draggable="true" id="item1">
                         <div class="img">
                             <img src="./image/Group 1.png" alt="">
                         </div>
@@ -22,17 +22,27 @@
                         <p>Description of the fourth item in the list. </p>
                     </div>
                     </div>
-                </div>
-            </div>
-            <div class="rightside-list">
-                <h3>Sortable List</h3>
-                <div class="box">
-                    <div class="list-box">
+                    <div class="list-box" draggable="true" id="item2">
                         <div class="img">
                             <img src="./image/Group 1.png" alt="">
                         </div>
                     <div class="text">
-                        <h5>List Item 1</h5>
+                        <h5>List Item 2</h5>
+                        <p>Description of the fourth item in the list. </p>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="rightside-list dragbox">
+                <h3>Sortable List</h3>
+                <div class="box">
+                    <div class="list-box" draggable="true" id="item3">
+                        <div class="img">
+                            <img src="./image/Group 1.png" alt="">
+                        </div>
+                    <div class="text">
+                        <h5>List Item 3</h5>
                         <p>Description of the fourth item in the list.</p>
                     </div>
                     </div>
@@ -41,5 +51,7 @@
         </div>
     </div>
     
+
+    <script src="./app.js"></script>
 </body>
 </html>
